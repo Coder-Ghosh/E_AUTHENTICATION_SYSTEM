@@ -1,9 +1,9 @@
 //This file is responsible for setup database connectivity
 
 const mongoose=require('mongoose');
-console.log(process.env.DB_LINK);
+
 //Define mogodb connection URL
-const mongoURL=process.env.DB_LINK
+const mongoURL="mongodb://127.0.0.1:27017/Hotels"
 
 //Setup mongodb connection
 
